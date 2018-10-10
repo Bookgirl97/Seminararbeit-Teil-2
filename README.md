@@ -5,9 +5,9 @@ Ziel  ist die Programmierung und Gestaltung eines graphischen Spiels unter Verwe
 
 2. Am unteren Rand einer Zeichenfläche (~Spielfeld) lässt sich – mit Hilfe der Pfeiltasten – ein schraffiertes Quadrat nach links/rechts steuern. Dieses repräsentiert den „Avatar“ des Spielers.
 
-3. Ein Button „Speichern“ sichert den Score/Spielstand
+3. Ein Button „Speichern“ sichert den Score/Spielstand aber nicht die Objekte 
 
-4. Ein Button „Laden“ lädt den Score/Spielstand 
+4. Ein Button „Laden“ lädt den Score/Spielstand aber nicht die Objekte
 
 5. Links oben zeigt eine Zahl einen Punkte-Counter an. Er steigt gleichmäßig und regelmäßig an.
 
@@ -17,5 +17,5 @@ Ziel  ist die Programmierung und Gestaltung eines graphischen Spiels unter Verwe
 
 8. Das Spiel generiert zufällige, unterschiedliche Objekte, die das Spielfeld am oberen Rand betreten und sich zum unteren Rand bewegen. Die unterschiedlichen Objekte werden durch verschiedene Konfigurationen einer Klasse erzeugt. Sie unterscheiden sich in den Parametern Geschwindigkeit, Form und Farbe. Gleiches Aussehen (Form & Farbe) bedeutet gleiches Verhalten (Bewegung).
 
-9.Kollidiert eines der Objekte mit dem „Avatar“ des Spielers, so verliert dieser ein Leben und eine Darstellung der Spielerleben nicht mehr ausgefüllt, sondern als leerer Rahmen angezeigt. 
+9.Kollidiert eines der Objekte mit dem „Avatar“ des Spielers, so verliert dieser ein Leben und eine Darstellung der Spielerleben nicht mehr ausgefüllt, sondern als leerer Rahmen angezeigt. Die Verzögerungsfunktion funktioniert leider nicht. Ist aber in objekt2.cpp zu finden. 
 
